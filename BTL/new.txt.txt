@@ -1,0 +1,23 @@
+hello	xin chao
+operating systerm	he dieu hanh
+packet	goi du lieu
+port	cong
+memory	bo nho
+storage	luu tru
+graphics	do hoa
+configuration	cau hinh
+protocol	giao thuc
+technical	thuoc ve ky thuat
+chief	giam doc
+arise	xuat hien
+analysis	phan tich
+abbreviation	su tom tat
+common	thong thuong
+compatible	tuong thich
+deal	giao dich
+demand	yeu cau
+effective	co hieu luc
+emplo thue
+refactor	cau truc lai
+hate	ghet
+summer	mua he		
