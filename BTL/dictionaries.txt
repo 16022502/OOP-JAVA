@@ -1,4 +1,3 @@
-hello	xin chao
 operating systerm	he dieu hanh
 packet	goi du lieu
 port	cong
@@ -15,10 +14,6 @@ abbreviation	su tom tat
 common	thong thuong
 compatible	tuong thich
 deal	giao dich
-demand	yeu cau
 effective	co hieu luc
-emplo thue
 refactor	cau truc lai
-hate	ghet
-summer	mua he			
-eat	an
+spring	mua xuan

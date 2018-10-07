@@ -44,11 +44,11 @@ public class DictionaryCommandline {
             }
             if (action.equals("4"))//xóa
             {
-
+                  dm.removeWord();
             }
-            if (action.equals("5"))//
+            if (action.equals("5"))//sua
             {
-
+                   dm.repairWord();
             }
             if (action.equals("6"))//thoat
             {
@@ -63,7 +63,9 @@ public class DictionaryCommandline {
         System.out.println("1: tim kiem");
         System.out.println("2: them");
         System.out.println("3: show");
-        System.out.println("4: thoat");
+        System.out.println("4: xoa");
+        System.out.println("5: sua");
+        System.out.println("6: thoat");
         
         System.out.println("");
         System.out.println("Nhap so :");

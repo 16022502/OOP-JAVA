@@ -67,7 +67,7 @@ public class DictionaryManagement{
         return listSearch;
     }
     
-    // add word to listWord
+    // add word to listWord : them
     public void add() throws FileNotFoundException, IOException {
         System.out.println("Input word target: ");
         String wordTarget = sc.nextLine();
@@ -82,16 +82,39 @@ public class DictionaryManagement{
    
     // Tim kiem tu
     public Word dictionaryLookupWord(String key){
-        Word wordSearch = new Word();
+       // Word wordSearch = new Word();
         for(Word word : dic.listWord){
             if(word.getWord_target().contains(key))
-        return wordSearch;
+        return word;
     }
         return null;
     }
     
-    // sưa tu 
-  //  public Word repairWord( )
+   // sưa tu 
+   public void repairWord( ) throws IOException{
+        Word wordRepair = new Word();
+       System.out.println("Nhap tu can sua: ");
+                String key = sc.nextLine();
+               
+       wordRepair = dictionaryLookupWord(key);
+       System.out.println("Sua tu thanh: ");
+       String repairWordTarget = sc.nextLine();
+       System.out.println("Sua nghia tu thanh: ");
+       String repairWordExplain = sc.nextLine();
+       wordRepair.setWord_target(repairWordTarget);
+       wordRepair.setWord_explain(repairWordExplain);
+       for(Word word: dic.listWord){
+           if(word.getWord_target().equals(key)){
+               int index = dic.listWord.indexOf(word);
+               dic.listWord.set(index,wordRepair );    
+               
+       }
+            
+   }
+       writeAll(dic.listWord);
+   }
+   
+  
     
     // ham nhap du lieu tu tệp txt
     public void insertFromFile() throws IOException {
@@ -113,15 +136,45 @@ public class DictionaryManagement{
         }  
     }
     
-    // doc vao file 
+    // doc 1 tu vao file 
      public void write(ArrayList<Word> listWord ) throws FileNotFoundException, IOException {
          Writer output;
          output = new BufferedWriter(new FileWriter("dictionaries.txt",true));
-         output.append(System.getProperty( "line.separator" ));
+       //  output.append(System.getProperty( "line.separator" ));
          output.append(listWord.get(listWord.size() - 1).getWord_target() + "\t");
          output.append(listWord.get(listWord.size()-1).getWord_explain());
         
          output.close();
+    }
+     
+     // doc lai tat ca tu vao file 
+     public void writeAll( ArrayList<Word> listWord ) throws IOException{
+         Writer output;
+         output = new BufferedWriter(new FileWriter("dictionaries.txt", false));
+         int i = 0;
+         for(Word word: dic.listWord){
+             
+            output.append(listWord.get(i).getWord_target() + "\t");
+             output.append(listWord.get(i).getWord_explain());
+             output.append(System.getProperty( "line.separator" ));
+             i++;
+             
+         }
+         output.close();
+     }
+     
+     
+    // xoa tư
+         
+    public void removeWord() throws IOException{
+        Word wordRemove = new Word();
+        System.out.println("Nhap tu can xoa: ");
+                String key = sc.nextLine();
+        wordRemove = dictionaryLookupWord(key);
+     //   System.out.println(wordRemove.equals(dic.listWord.get(20)));
+        dic.listWord.remove(wordRemove);
+        writeAll(dic.listWord);
+        
     }
 
     private void closeStream(ObjectOutputStream fos) {
