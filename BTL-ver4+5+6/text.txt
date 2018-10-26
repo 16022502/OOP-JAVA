@@ -1,0 +1,126 @@
+packet	gói
+port	cong
+memory	bo nho
+storage	luu tru
+graphics	do hoa
+configuration	cau hinh
+protocol	giao thuc
+technical	thuoc ve ky thuat
+chief	giam doc
+arise	xuat hien
+analysis	phan tich
+abbreviation	su tom tat
+common	thong thuong
+compatible	tuong thich
+deal	giao dich
+effective	co hieu luc
+refactor	cau truc lai
+spring	mua xuan
+hot	nong
+cold	lanh
+hungry	doi
+angry	gian du
+disgusted	ghe tom
+surprised	ngac nhien
+sad	buon ba
+bored	chan, buon chan
+scared	so hai
+exhausted	met moi
+shy	then thung
+march	dien hanh
+crawl	bo, truon
+drag	keo
+leap	nhay cao
+skip	nhay day
+crouch	ngoi co lai
+dive	lan
+lean	tua nguoi
+sit	ngoi
+squat	ngoi xom
+pick up	nhat len
+hold	giu
+carry	mang
+slap	tat
+punch	dam
+kick	da
+throw	nem
+pull	keo
+ambitious	nhieu hoai bao
+individualistic	theo chu nghia ca nhan
+emotional	de xuc dong
+careless	bat can
+likeable	de thuong
+shy	nhut nhat, rut re
+	
+moody	tinh khi chat
+tolerant	khoan dung
+cheerful	vui ve
+outgoing	than mat, thoai mai
+romantic	lang man
+childish	ngay ngo
+popular	duoc long nguoi khac
+competitive	thich canh tranh, ganh dua
+reckless	thieu than trong, hap tap
+polite	lich su
+considerate	chu dao
+reliable	dang tin cay
+logical	hop li, suy nghi co logic
+independent	doc lap
+kind	tot bung
+vain	kieu ngao
+sensitive	nhay cam
+impatient	khong kien nhan
+abstract class	lop truu tuong
+abstract method	phuong thuc truu tuong
+abstraction	truu tuong hoa
+aggregation	quan he tu hop, ket tap
+argument	doi so, tham so thuc su
+behavior	hanh vi
+chain stream	doi noi tiep
+compossition	quan he hop thanh
+concrete class	lop cu the
+connection stream	dong ket noi
+concrete class	lop cu the
+encapsulation	dong goi
+exception	ngoai le
+information hiding	che giau thong tin
+inheritance	thua ke
+instance	thuc the
+overload	cai chong, ham trung ten
+override	cai de, ghi de, dinh nghia lai
+parameter	tham so
+pass-by-value	truyen bnag gia tri
+polymorphism	da hinh
+reference	tham chieu
+state	trang thai
+virtual machine	may ao
+operating	system he dieu hanh
+multi-user	da nguoi dung
+pulse	xung
+signal	tin hieu
+solution	giai phap, loi giai
+store	luu tru
+subtraction	phep tru
+terminal	may tram
+transmit	truyen
+decsion	quyet dinh
+perform	tien hanh, thi hanh
+devise	phat minh
+accumulator	tong
+appropriate	thich hop
+arithmetic	so hoc
+capability	kha nang
+circuit	mach
+complex	phuc tap
+component	thanh phan
+computerize	tin hoc hoa
+chain	chuoi
+clarify	lam cho de hieu
+individual	ca nhan
+quality	chat luong
+quantity	so luong
+ribbon	dai bang
+abacus	ban tinh
+allocate	phan phoi
+command	ra lenh
+tiny	nho be

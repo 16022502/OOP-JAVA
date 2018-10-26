@@ -1,0 +1,126 @@
+memory	bộ nhớ
+storage	lưu trữ
+graphics	đồ họa
+configuration	cấu hình
+protocol	giao thức
+technical	thuộc về kĩ thuật
+chief	giám đốc
+arise	xuất hiện
+analysis	phân tích
+abbreviation	sự tóm tắt
+common	thông thường
+compatible	tương thích
+deal	giao dịch
+effective	có hiệu lực
+refactor	cấu trúc lại
+spring	mùa xuân
+hot	nóng
+cold	lạnh
+hungry	đói
+angry	giận dữ
+disgusted	ghê tởm
+surprised	ngạc nhiên
+sad	buồn bã
+bored	chán, buồn chán
+scared	sợ hãi 
+exhausted	mệt mỏi
+shy	thẹn thùng
+march	diễn hành
+crawl	bò, trườn
+drag	kéo
+leap	nhảy cao
+skip	nhảy dây
+crouch	ngồi co lại
+dive	lặn
+lean	tựa người
+sit	ngồi
+squat	ngồi xổm
+pick up	nhặt lên
+hold	giữ
+carry	mang
+slap	tát
+punch	đấm
+kick	đá
+throw	ném
+pull	kéo
+ambitious	nhiều hoài bão
+individualistic	theo chủ nghĩa cá nhân
+emotional	dễ xúc động
+careless	bất cần
+likeable	dễ thương
+shy	nhụt rè, nhút nhát
+moody	buồn rầu
+tolerant	khoan dung
+cheerful	vui vẻ
+outgoing	thân mật, thoải mái
+romantic	lãng mạn
+childish	ngây ngô
+popular	được lòng người khác
+competitive	tính cạnh tranh, ganh đua
+reckless	thiếu trận trọng, hấp dẫn
+polite	lịch sử
+considerate	chu đáo
+reliable	đáng tin cậy
+logical	hợp lí, suy nghĩ có logic
+independent	độc lập
+kind	tốt bụng
+vain	kiêu ngạo
+sensitive	nhảy cảm
+impatient	không kiên nhẫn
+abstract class	lớp trừu tượng
+abstract method	phương thức trừu tượng
+abstraction	trừu tượng hóa
+aggregation	quan hệ tụ hợp, kết tập
+argument	đối số, tham số thực sự
+behavior	hành vi
+chain stream	dòng nối tiếp
+compossition	quan hệ hợp thành
+concrete class	lớp  cụ thể
+connection stream	dòng kết nối
+concrete class	lớp cụ thể
+encapsulation	đóng gói
+exception	ngoại lệ
+information hiding	che giấu thông tin
+inheritance	thừa kế
+instance	thực thể
+overload	cài chồng, hàm trùng tên
+override	cài đè, ghi đè, định nghĩa lại
+parameter	tham số
+pass-by-value	truyền bằng giá trị
+polymorphism	đa hình
+reference	tham chiếu
+state	trạng thái
+virtual machine	máy ảo
+multi-user	đa người dùng
+pulse	xung
+signal	tín hiệu
+solution	giải pháp
+store	lưu trữ
+subtraction	phép trừ
+terminal	máy trạm
+transmit	truyền
+decsion	quyết định
+perform	tiến hành, thi hành
+devise	phát minh
+accumulator	tổng
+appropriate	thích hợp
+arithmetic	số học
+capability	khả năng
+circuit	mạch
+complex	phức tạp
+component	thành phần
+computerize	tin học hóa
+chain	chuỗi
+clarify	làm cho dễ hiểu
+individual	cá nhân
+quality	chất lượng
+quantity	số lượng
+ribbon	đại bàng
+abacus	bàn tính
+allocate	phân phối
+command	ra lệnh
+tiny	nhỏ bé
+eat	ăn
+search	Tìm kiếm
+action	hành động
+port	cổng
