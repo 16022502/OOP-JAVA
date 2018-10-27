@@ -1,11 +1,5 @@
-memory	bộ nhớ
-storage	lưu trữ
-graphics	đồ họa
-configuration	cấu hình
-protocol	giao thức
-technical	thuộc về kĩ thuật
+technical	thuộc về kĩ thuật 
 chief	giám đốc
-arise	xuất hiện
 analysis	phân tích
 abbreviation	sự tóm tắt
 common	thông thường
@@ -14,7 +8,6 @@ deal	giao dịch
 effective	có hiệu lực
 refactor	cấu trúc lại
 spring	mùa xuân
-hot	nóng
 cold	lạnh
 hungry	đói
 angry	giận dữ
@@ -72,7 +65,6 @@ abstract method	phương thức trừu tượng
 abstraction	trừu tượng hóa
 aggregation	quan hệ tụ hợp, kết tập
 argument	đối số, tham số thực sự
-behavior	hành vi
 chain stream	dòng nối tiếp
 compossition	quan hệ hợp thành
 concrete class	lớp  cụ thể
@@ -120,7 +112,127 @@ abacus	bàn tính
 allocate	phân phối
 command	ra lệnh
 tiny	nhỏ bé
-eat	ăn
 search	Tìm kiếm
 action	hành động
 port	cổng
+have	có
+do	làm
+say	Nói
+get	được
+make	làm
+go	đi
+see	thấy
+know	biết
+take	lấy
+think	nghĩ
+come	đến
+give	cho
+look	nhìn
+find	tìm thấy
+want	muốn
+tell	nói
+put	đặt
+mean	nghĩa là
+leave	rời khỏi
+work	làm việc
+need	cần
+feel	cảm
+seem	hình như
+ask	hỏi
+show	hiển thị
+try	thử
+call	gọi
+keep	giữ
+provide	cung cấp
+hold	giữ
+turn	xoay
+follow	theo
+bring	đem lại
+like	như
+going	đi
+help	giúp
+start	bắt đầu
+run	chạy
+write	viết
+set	thiết lập
+move	hành động
+find	tìm thấy
+want	muốn
+tell	nói
+put	đặt
+mean	nghĩa là
+pay	trả 
+hear	nghe
+include	bao gồm
+allow	cho phép
+meet	gặp
+lead	chì
+happen	xảy ra
+carry	mang
+appear	xuất hiện
+produce	sản xuất
+offer	phục vụ
+consider	xem xét
+expect	chờ đợi
+suggest	đề nghị
+let	cho
+lose	mất
+remain	còn lại
+decide	quyết định
+understand	hiểu
+reach	đến
+involve	liên quan đến
+spend	tiêu
+cause	nguyên nhân
+lie	nói dối
+raise	nâng cao
+base	căn cứ
+apply	ứng dụng
+increase	tăng lên
+cover	che
+grow	lớn lên
+claim	yêu cầu
+report	báo cáo
+form	hình thức
+stay	ở lại
+reduce	giảm
+establish	thiết lập
+wish	muốn
+achieve	hoàn  thành
+seek	tìm kiếm
+choose	chọn
+deal	nhiều
+fail	thất bại
+serve	phục vụ
+end	đầu, đuôi
+occur	xảy đến
+represent	đại diện
+rise	tăng lên
+discuss	bàn luận
+argue	tranh luận
+prove	chứng minh
+wear	dùng
+pick	nhặt
+enjoy	thưởng thức
+introduce	giới thiệu
+arrive	đến
+ensure	chắc chắn
+refer	tham khảo
+relate	quan hệ
+affect	có ảnh hưởng đến
+announce	thông báo
+obtain	được
+publish	xuất bản
+suffer	bị
+suppose	giả sử
+determine	xác định
+memory	ký ức
+set	thiết lập
+be	thì, là, được
+hot	nóng bức
+deep	sâu
+configuration	cấu hình
+protocol	giao thức
+eat	ăn
+dictionary	từ điển
+button	nút
