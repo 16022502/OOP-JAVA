@@ -165,6 +165,51 @@ public class Triangle extends Shape{
         if(filled == true)
             System.out.println("Hinh da duoc to mau" + getColor());
      }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.x1) ^ (Double.doubleToLongBits(this.x1) >>> 32));
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.x2) ^ (Double.doubleToLongBits(this.x2) >>> 32));
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.x3) ^ (Double.doubleToLongBits(this.x3) >>> 32));
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.y1) ^ (Double.doubleToLongBits(this.y1) >>> 32));
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.y2) ^ (Double.doubleToLongBits(this.y2) >>> 32));
+        hash = 97 * hash + (int) (Double.doubleToLongBits(this.y3) ^ (Double.doubleToLongBits(this.y3) >>> 32));
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Triangle other = (Triangle) obj;
+        if (Double.doubleToLongBits(this.x1) != Double.doubleToLongBits(other.x1)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x2) != Double.doubleToLongBits(other.x2)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x3) != Double.doubleToLongBits(other.x3)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y1) != Double.doubleToLongBits(other.y1)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y2) != Double.doubleToLongBits(other.y2)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y3) != Double.doubleToLongBits(other.y3)) {
+            return false;
+        }
+        return true;
+    }
     
     
     

@@ -10,7 +10,8 @@ package week6;
  * @author QUANG
  */
 public class Square extends Rectangle {
-
+   private double size;
+           
     public Square() {
     }
 
@@ -18,12 +19,17 @@ public class Square extends Rectangle {
         super(side, side);
     }
 
-    public Square(double side, String color, boolean filled) {
-        //super(side, side, color, filled);
-        super(side, side);
-        this.color = color;
-        this.filled = filled;
+    public Square(String color, boolean filled,double x1, double x2, double x3, double x4, double y1, double y2, double y3, double y4,double x, double  y) {
+      super(x1, x2, x3, x4, y1, y2, y3, y4, color, filled, x, y);
+      this.size = 0;
     }
+
+    @Override
+    public String toString() {
+       return "Square{" + "x1=" + x1 + ", x2=" + x2 + ", x3=" + x3 + ", x4=" + x4 + ", y1=" + y1 + ", y2=" + y2 + ", y3=" + y3 + ", y4=" + y4 + ", color=" + color +", size="+ size+'}';
+    }
+
+     
     
     
     public double getSide() {
@@ -48,7 +54,8 @@ public class Square extends Rectangle {
     public void setLength(double side) {
         this.length = side;
     }
-    
+
+  
     
 
    

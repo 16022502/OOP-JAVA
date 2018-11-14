@@ -18,6 +18,7 @@ public abstract class Shape {
     protected boolean filled;
     protected double width;
     protected double length;
+    protected String type;
     
     // phuong thuc khoi tao
 
@@ -79,7 +80,8 @@ public abstract class Shape {
      public void fillColor(){
    
      }
-   
+     
+
     
     
 }

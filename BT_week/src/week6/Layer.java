@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * @author QUANG
  */
 public class Layer {
+    private boolean visible;
     // một danh sánh các đối tượng thuộc lớp Shape
     ArrayList<Shape> shapeList = new ArrayList<>();
     
@@ -48,6 +49,35 @@ public class Layer {
             }
         }
     }
-  
+    // phuong thuc khoi tao
+    public Layer() {
+            this.visible = true;
+    }
+    // geter seter
+
+    public boolean isVisible() {
+        return visible;
+    }
+
+    public void setVisible(boolean visible) {
+        this.visible = visible;
+    }
+
+   // xoa cac hinh giong nhau trong cung mot layer
+    public void removeShapeSame(){
+        for (int i = 0; i < shapeList.size()-1; i++) {
+            for (int j = i+1; j < shapeList.size(); j++) {
+                if (shapeList.get(i).equals(shapeList.get(j))) {
+                    shapeList.remove(i);
+                }
+            }
+        }
+    }
+
+    public ArrayList<Shape> getShapeList() {
+        return shapeList;
+    }
+     
+    
 }
 

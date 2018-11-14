@@ -60,6 +60,41 @@ public class Circle extends Shape {
         this.x1 += x;
         this.y1 += y;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Circle other = (Circle) obj;
+        if (Double.doubleToLongBits(this.PI) != Double.doubleToLongBits(other.PI)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.radius) != Double.doubleToLongBits(other.radius)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x1) != Double.doubleToLongBits(other.x1)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y1) != Double.doubleToLongBits(other.y1)) {
+            return false;
+        }
+        return true;
+    }
+    
+    
     
     
 }

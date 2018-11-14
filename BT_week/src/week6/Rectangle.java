@@ -13,8 +13,8 @@ package week6;
  */
 public class Rectangle extends Shape {
     // cac toa do diem hCN
-    private double x1,x2,x3,x4;
-    private double y1,y2,y3,y4;
+    protected double x1,x2,x3,x4;
+    protected double y1,y2,y3,y4;
     
 
     // 3 phuong thuc khoi tao
@@ -190,16 +190,76 @@ public class Rectangle extends Shape {
         this.y4 += y;
     }
 
-    @Override
-    public String toString() {
-        return "Rectangle{" + "x1=" + x1 + ", x2=" + x2 + ", x3=" + x3 + ", x4=" + x4 + ", y1=" + y1 + ", y2=" + y2 + ", y3=" + y3 + ", y4=" + y4 + '}';
-    }
+    
 
     @Override
     public double getArea() {
        double S;
        S = width * length;
        return S;
+    }
+
+//    @Override
+//    public String toString() {
+//        return "Rectangle{" + "x1=" + x1 + ", x2=" + x2 + ", x3=" + x3 + ", x4=" + x4 + ", y1=" + y1 + ", y2=" + y2 + ", y3=" + y3 + ", y4=" + y4 '}';
+//    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" + "x1=" + x1 + ", x2=" + x2 + ", x3=" + x3 + ", x4=" + x4 + ", y1=" + y1 + ", y2=" + y2 + ", y3=" + y3 + ", y4=" + y4 + ", color=" + color +'}';
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.x1) ^ (Double.doubleToLongBits(this.x1) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.x2) ^ (Double.doubleToLongBits(this.x2) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.x3) ^ (Double.doubleToLongBits(this.x3) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.x4) ^ (Double.doubleToLongBits(this.x4) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.y1) ^ (Double.doubleToLongBits(this.y1) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.y2) ^ (Double.doubleToLongBits(this.y2) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.y3) ^ (Double.doubleToLongBits(this.y3) >>> 32));
+        hash = 37 * hash + (int) (Double.doubleToLongBits(this.y4) ^ (Double.doubleToLongBits(this.y4) >>> 32));
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Rectangle other = (Rectangle) obj;
+        if (Double.doubleToLongBits(this.x1) != Double.doubleToLongBits(other.x1)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x2) != Double.doubleToLongBits(other.x2)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x3) != Double.doubleToLongBits(other.x3)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.x4) != Double.doubleToLongBits(other.x4)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y1) != Double.doubleToLongBits(other.y1)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y2) != Double.doubleToLongBits(other.y2)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y3) != Double.doubleToLongBits(other.y3)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(this.y4) != Double.doubleToLongBits(other.y4)) {
+            return false;
+        }
+        return true;
     }
     
    
