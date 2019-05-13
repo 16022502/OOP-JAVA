@@ -16,10 +16,10 @@ public class Student {
     private String email;
     
     // consructor
-    public Student(String na, String ids, String gr, String ema) {
-        name = na;
-        id = ids;
-        group = gr;
+    public Student(String najafd, String quang, String group1, String ema) {
+        name = najafd; 
+        id = quang;
+        group = group1;
         email = ema;
     }
     public Student() {
